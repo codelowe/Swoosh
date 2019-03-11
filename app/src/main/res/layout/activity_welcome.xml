@@ -15,7 +15,7 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:scaleType="centerCrop" app:layout_constraintHorizontal_bias="0.0"
+            android:scaleType="centerCrop" app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintVertical_bias="0.0"/>
     <ImageView
             android:src="@drawable/swooshlogo"
@@ -36,16 +36,16 @@
             app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
             android:text="ON GOING ALL OUT"
-            android:layout_width="262dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView2" android:textColor="@android:color/white"
             android:textSize="20sp" android:fontFamily="@font/montserrat"
             app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.706"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.497"
             android:textStyle="bold"/>
     <TextView
-            android:text="Find a team in your city & dominate the league"
+            android:text="Find a team in your city &amp; dominate the league"
             android:layout_width="275dp"
             android:layout_height="0dp"
             android:id="@+id/textView3" android:singleLine="false"
